@@ -190,8 +190,8 @@ func info() {
     }
 }
 }
+
 let natureReserve1 = NatureReserve(2, 5, 3, 2) // Количество разных животных на старте
 natureReserve1.info()
-
-natureReserve1.randomAction(10) // Количество итераций
+natureReserve1.randomAction(5) // Количество итераций
 print("Количество животных в заповеднике в конце \(natureReserve1.animals.count)")
